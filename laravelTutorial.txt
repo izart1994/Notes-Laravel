@@ -6,9 +6,16 @@
 php artisan key:generate (generate key for laravel project)
 php artisan package:discover (discover two package for us)
 
+php artisan make:auth (create authentication [login and register])
+
+
 2#.env file
 -create a database
 -change DB_USERNAME & DB_PASSWORD
 
 3#MYSQL
 -create a database name (same in .env)
+
+4#file in laravel folder
+-welcome.blade.php (resource > view [change the index page of laravel website])
+-app.blade.php (resource > view > layout [tab of the page])
