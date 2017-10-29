@@ -5,3 +5,10 @@
 -----Command in Laravel-----
 php artisan key:generate (generate key for laravel project)
 php artisan package:discover (discover two package for us)
+
+2#.env file
+-create a database
+-change DB_USERNAME & DB_PASSWORD
+
+3#MYSQL
+-create a database name (same in .env)
