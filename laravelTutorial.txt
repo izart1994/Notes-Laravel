@@ -1,1 +1,7 @@
+1:
+#Installation of the Laravel with the requirement
+-(server requirements)
 
+-----Command in Laravel-----
+php artisan key:generate (generate key for laravel project)
+php artisan package:discover (discover two package for us)
