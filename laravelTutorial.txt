@@ -19,3 +19,4 @@ php artisan make:auth (create authentication [login and register])
 4#file in laravel folder
 -welcome.blade.php (resource > view [change the index page of laravel website])
 -app.blade.php (resource > view > layout [tab of the page])
+-2014_10_12_000000_create_users_table (database > migrations [the important database first auth page])
