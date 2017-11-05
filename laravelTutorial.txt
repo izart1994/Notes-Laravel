@@ -3,6 +3,7 @@
 -(server requirements)
 
 -----Command in Laravel-----
+php artisan serve (start the laravel website)
 php artisan key:generate (generate key for laravel project)
 php artisan package:discover (discover two package for us)
 
