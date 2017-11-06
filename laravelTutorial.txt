@@ -15,9 +15,6 @@ php artisan package:discover (discover two package for us)
 php artisan make:auth (create authentication [login and register])
 php artisan migrate (create/migrate database in MySQL)
 
-php artisan make:modal ----[File Name] (create modal in Laravel)
--File Modal are at { (app > __.php) }
-
 2#.env file
 -create a database
 -change DB_USERNAME & DB_PASSWORD
@@ -36,3 +33,12 @@ php artisan make:modal ----[File Name] (create modal in Laravel)
 -Many View comes to one Controller
 -One Controller can have many Model
 -Each Model connected to at least one Database
+
+6#make Modal in Laravel
+
+php artisan make:modal ----[File Name] (create modal in Laravel)
+-File Model are at { (app > __.php) }
+-change at >
+    protected $fillable = [
+        'body',
+    ];
