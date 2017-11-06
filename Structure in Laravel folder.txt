@@ -8,4 +8,44 @@
 2)app > Http > Auth }
 -Contain login and registration and all about form in the application
 
+#bootstrap folder
+
+1)bootstrap > app.php }
+-Where configuration for the application is setup
+
+#config folder
+
+1) ---- }
+-Most of configuration of the application is here
+
+#database
+
+1)database > migration }
+-create database in the application and MySql
+
+2)database > seeds }
+-
+
+#public
+
+1) ----- }
+-where you have js, css file
+
+#resources
+
+1) ------ }
+-dealing with view, js file
+
+2)resources > views > welcome.blade.php }
+-the file that come out first in the application
+
+#routes
+
+1) ------ }
+-controlling routes especially web.php
+
+#storage,test,vendor
+
+1) ------ }
+-not to touch and touch it once in a while
 
