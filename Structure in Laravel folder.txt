@@ -1,0 +1,11 @@
+
+
+#The Folder that will be use most often > (app)
+
+1)app > Http }
+-Contain logic for the application
+
+2)app > Http > Auth }
+-Contain login and registration and all about form in the application
+
+
