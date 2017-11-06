@@ -27,3 +27,10 @@ php artisan migrate (create/migrate database in MySQL)
 -welcome.blade.php (resource > view [change the index page of laravel website])
 -app.blade.php (resource > view > layout [tab of the page])
 -2014_10_12_000000_create_users_table (database > migrations [the important database first auth page])
+
+
+5#MVC (Model - View - Controller)
+-each View is different
+-Many View comes to one Controller
+-One Controller can have many Model
+-Each Model connected to at least one Database
