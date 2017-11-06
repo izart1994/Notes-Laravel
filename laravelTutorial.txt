@@ -2,10 +2,15 @@
 #Installation of the Laravel with the requirement
 -(server requirements)
 
+-----Command in CMD--------
+start . (open folder)
+
 -----Command in Laravel-----
 php artisan serve (start the laravel website)
 php artisan key:generate (generate key for laravel project)
+//key is in .env file at APP_KEY
 php artisan package:discover (discover two package for us)
+//after generate key
 
 php artisan make:auth (create authentication [login and register])
 php artisan migrate (create/migrate database in MySQL)
