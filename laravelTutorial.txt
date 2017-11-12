@@ -42,3 +42,11 @@ php artisan make:modal ----[File Name] (create modal in Laravel)
     protected $fillable = [
         'body',
     ];
+    public function __(){
+        return $this->belongsTo('App\__');
+    }
+    public function __s(){
+        return $this->hasMany('App\__');
+    }
+    public function __s(){
+        return $this->belongsToMany('App\__');
